@@ -62,7 +62,7 @@ streamlit.write('The user entered', fruit_choice)
 #my_cur = my_cnx.cursor()
 #my_cur.execute("select * from fruit_load_list")
 #my_data_rows = my_cur.fetchall()
-:
+
 streamlit.header ("View Our List - Add your Favorites!")
 #snowflake-related functions
 def get_fruit_load_list():
